@@ -1,0 +1,50 @@
+/* Import monospace font for a more technical or raw appearance */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap');
+
+:root {
+  /* Colors - Emphasizing high contrast and limited palette */
+  --primary-color: #000; /* Black for stark contrast and emphasis */
+  --secondary-color: #fff; /* White for clarity and simplicity */
+  --tertiary-color: #d3d3d3; /* Light grey for subtle accents */
+  --hover-color: #e98fff;
+  --white-color: #fff;
+  --black-color: #000;
+  --success-color: #008000; /* Utilizing basic, bright colors for notifications */
+  --danger-color: #ff0000;
+  --warning-color: #ffa500;
+  --info-color: #0000ff;
+
+  /* Fonts */
+  --font-family: 'Fira Mono', monospace; /* Monospace font for a utilitarian feel */
+  --font-size-base: 16px; /* Base font size remains unchanged */
+
+  /* Spacing - Keeping the system but simplifying to emphasize structure */
+  --spacing-unit: 8px;
+  --padding-small: 8px; /* Calculated from $spacing-unit */
+  --padding-medium: 16px; /* Calculated from $spacing-unit */
+  --padding-large: 24px; /* Calculated from $spacing-unit */
+  --margin-small: 8px; /* Calculated from $spacing-unit */
+  --margin-medium: 16px; /* Calculated from $spacing-unit */
+  --margin-large: 24px; /* Calculated from $spacing-unit */
+
+  /* Border - Adopting a more pronounced style */
+  --border-width: 2px; /* Thicker borders for clear separation */
+  --border-radius: 0; /* Removing rounded corners for sharp, geometric shapes */
+
+  /* Breakpoints - No changes, as responsiveness remains crucial */
+  --breakpoint-small: 576px;
+  --breakpoint-medium: 768px;
+  --breakpoint-large: 992px;
+  --breakpoint-xlarge: 1200px;
+}
+
+/* Example usage */
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  color: var(--primary-color);
+}
+
+button:hover {
+  background-color: var(--hover-color);
+}

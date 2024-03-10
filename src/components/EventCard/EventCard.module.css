@@ -1,0 +1,22 @@
+.card {
+  width: 18rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.imageWrapper {
+  width: 18rem;
+  height: 18rem;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

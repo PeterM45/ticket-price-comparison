@@ -1,0 +1,15 @@
+.dropdownContainer {
+  margin: 10px 0;
+}
+
+.select {
+  padding: 10px;
+  border: 2px solid var(--black-color);
+  border-radius: var(--border-radius);
+}
+
+.selectedOption {
+  position: relative;
+  color: black;
+  margin-top: 10px;
+}

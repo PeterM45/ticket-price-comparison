@@ -1,0 +1,50 @@
+.searchForm {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.choice {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.searchbar .searchbarInput {
+  width: 50vw;
+  padding: 10px;
+  margin: 20px; /* Replace 20px with the value of $margin-medium */
+  border: var(--border-width) solid var(--tertiary-color); /* Replace #00FF00 with the value of $tertiary-color */
+  border-radius: var(
+    --border-radius
+  ); /* Replace 5px with the value of $border-radius */
+  font-size: 16px;
+  outline: none;
+}
+
+.searchbar .searchbarSubmitBtn {
+  padding: 10px 20px; /* Slightly larger horizontal padding for a balanced look */
+  background-color: var(
+    --black-color
+  ); /* Replace #000000 with the value of $black-color */
+  border: none; /* Initially stated as "Remove default border for a cleaner look" but then border is added again, keeping the added border */
+  border-radius: var(
+    --border-radius
+  ); /* Use the same border-radius value for consistency */
+  font-size: 16px; /* Match the input's font size */
+  color: #ffffff; /* Replace #FFFFFF with the value of $white-color */
+  cursor: pointer; /* Change cursor to pointer to indicate clickability */
+  border: 1px solid var(--black-color); /* Replace #00FF00 with the value of $tertiary-color */
+}
+
+.searchbar .searchbarSubmitBtn:hover {
+  background-color: var(
+    --hover-color
+  ); /* Replace #FF0000 with the value of $hover-color */
+  border: 1px solid var(--black-color); /* Replace #00FF00 with the value of $tertiary-color */
+  color: black;
+}
